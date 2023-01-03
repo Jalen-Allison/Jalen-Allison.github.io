@@ -93,13 +93,6 @@ animation: moveNav 5s;
     animation: moveVideoText 5.75s;
 }
 
-@media screen and (max-width: 780px) {
-    #Column_1 {
-        
-        display: none;
-    }
-}
-
 @keyframes moveVideoText {
     from {top: -100vw;} /* This sets the position of the video text to above the viewport */
     to {top: 0vw;} /* This moves the video text to the normal positioning on the viewport */
