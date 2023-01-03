@@ -93,7 +93,7 @@ animation: moveNav 5s;
     animation: moveVideoText 5.75s;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 780px) {
     #Column_1 {
         
         display: none;
