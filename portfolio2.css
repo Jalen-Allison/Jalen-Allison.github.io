@@ -105,7 +105,7 @@ animation: moveNav 5s;
 }
 
 .Column_1 {
-    float: center;
+    float: left;
     width: 50%;
     padding: 10px;
     padding-top: 3%;
