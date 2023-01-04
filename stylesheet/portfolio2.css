@@ -243,6 +243,7 @@ animation: moveNav 5s; /* This makes the moveNav animation last 5 seconds */
     padding: 1.6%;
     height: 450px;
     background-color: goldenrod;
+    overflow: auto;
 }
 
 .Column_2 {
