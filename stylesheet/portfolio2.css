@@ -288,8 +288,9 @@ img:hover {
 
 /* Heading 1 elements*/
 h1 {
-    text-transform: uppercase; /*capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima; /*sets the font family of all h1 headings */
+    font-style: oblique;
+    font-family: Arial, sans-serif; /*sets the font family of all h1 headings */
+    font-variant: small-caps;
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: #1a1a1a;
@@ -305,7 +306,7 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Arial, sans-serif;
     text-align: justify; /* This justifies the text within paragraph elements */
     letter-spacing: .1vw; /* This expands the text slighty */
     font-size: small; /* Relative font sizing equal to 2.5 of the viewport width */
@@ -322,6 +323,7 @@ p:hover {
 /* Center class - this applies to all centered text */
 .center {
     text-align: center; /* This center aligns the text */
+    font-size: 89%;
 }
 
 /* Center align elements hover effect - This only affect quote, github link, and footer */
@@ -340,6 +342,7 @@ a {
 /* Quotation elements */
 q {
     font-style: italic; /* Makes the quote italicized */
+    
 }
 
 
