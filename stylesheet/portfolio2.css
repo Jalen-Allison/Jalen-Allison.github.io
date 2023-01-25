@@ -147,10 +147,9 @@ animation: moveNav 5s; /* This makes the moveNav animation last 5 seconds */
 /* Images contained within the slideshow */
 .Slideshow_Images {
     vertical-align: middle; /* This centers the images vertically within the slideshow container */
-     /* The height of the images is automatically adjusted based on the content, ie if your images are different sizes, they will display as different sizes */
     box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .75); /* Adds a shadow around the slideshow images */
-    width: 100%; /* The width of the images is automatically adjusted based on the content */
-    height: 100%;
+    width: 700px; 
+    height: 600px;
 }
 
 /* Next and previous buttons */
